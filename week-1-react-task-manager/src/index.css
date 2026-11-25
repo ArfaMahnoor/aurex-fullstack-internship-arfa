@@ -91,3 +91,41 @@ li button {
 li button:hover {
   background: #dc2626;
 }
+
+.filter-bar {
+  margin-bottom: 16px;
+}
+
+.filter-bar p {
+  margin: 0 0 8px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.filter-buttons button {
+  background: #e5e7eb;
+  color: #111827;
+  text-transform: capitalize;
+}
+
+.filter-buttons button:hover {
+  background: #d1d5db;
+}
+
+.filter-buttons button.active-filter {
+  background: #4f46e5;
+  color: white;
+}
+
+.clear-btn {
+  background: #ef4444;
+}
+
+.clear-btn:hover {
+  background: #dc2626;
+}
